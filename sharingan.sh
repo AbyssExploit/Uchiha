@@ -16,9 +16,8 @@ sleep 1
 line="\e[1;31m[ ∆ ]\e[0m"
 
 clear
-cd .module
-python2 p.py
-bash r.sh
+python2 .p.py
+bash .r.sh
 
 
 toilet --metal -f future -t "  Welcome Back"
