@@ -277,7 +277,6 @@ echo -e "$green Thanks To Use This Tools"
 echo -e "$green Be Carefully On Internet"
 echo -e "$green Malware Everywhere"
 echo -e "$green We Are Legion"
-echo -e "$green Expect Us"
 sleep 5
 exit
 fi
