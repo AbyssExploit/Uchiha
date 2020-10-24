@@ -131,7 +131,7 @@ git clone https://github.com/4shadoww/hakkuframework.git
 mv hakkuframework $HOME
 cd $HOME/hakkuframework
 chmod +x hakku
-./install
+bash install
 python hakku
 fi
 
@@ -272,12 +272,5 @@ fi
 
 if [ $asu = 0 ] || [ $asu = 0 ]
 then
-echo -e "Abyss Walker" | lolcat
-echo -e "No System Is Safe" | lolcat
-echo -e "Be Carrefuly On Internet" | lolcat
-echo -e "Malware Everywhere" | lolcat
-echo -e "Thanks For Use This Tools" | lolcat
 exit
 fi
-
-
