@@ -211,6 +211,31 @@ chmod +x install.sh
 perl Th3inspector.pl
 fi
 
+if [ $asu = 12 ] || [ $asu = 12 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://www.github.com/FluxionNetwork/fluxion
+mv fluxion $HOME
+cd $HOME/fluxion
+bash fluxion.sh
+fi
+
+if [ $asu = 13 ] || [ $asu = 13 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://github.com/wifiphisher/wifiphisher.git
+mv wifiphisher $HOME
+cd $HOME/wifiphisher
+python setup.py install
+wifiphisher
+fi
+
 if [ $asu = 0 ] || [ $asu = 0 ]
 then
 echo -e "$green Thanks To Use This Tools"
