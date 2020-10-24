@@ -63,6 +63,14 @@ echo -e "$yellow 10. Metasploit ( Penetration Tools )"
 echo -e "$green ____________________________________________"
 echo -e "$blue 11. Th3Inspector ( Information Gathering )"
 echo -e "$green ____________________________________________"
+echo -e "$red 12. Fluxion ( Hack Wifi )"
+echo -e "$green ____________________________________________"
+echo -e "$cyan 13. Wifite ( Hack Wifi )"
+echo -e "$green ____________________________________________"
+echo -e "$white 14. Wifiphisher ( Hack Wifi Evil Twin )"
+echo -e "$green ____________________________________________"
+echo -e "$purple 15. Cam-Hackers ( Hack CCTV 91 Negara )"
+echo -e "$green ____________________________________________"
 
 echo -e "$cyan 0. Keluar"
 
@@ -79,7 +87,7 @@ pip install hiddeneye-reborn
 fi
 
 if [ $asu = 2 ] || [ $asu = 2 ]
-then                                                                                                      clear
+then                                                                 
 toilet --metal -f future -t "Darknet"
 echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
 sleep 3
@@ -121,7 +129,8 @@ toilet --metal -f future -t "Darknet"
 echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
 sleep 3
 git clone https://github.com/4shadoww/hakkuframework.git
-mv hakkuframework $HOME                                                                                   cd $HOME/hakkuframework
+mv hakkuframework $HOME                                                                                   
+cd $HOME/hakkuframework
 chmod +x hakku
 ./install
 python hakku
@@ -207,6 +216,59 @@ cd $HOME/Th3inspector
 chmod +x install.sh
 ./install.sh
 perl Th3inspector.pl
+fi
+
+if [ $asu = 12 ] || [ $asu = 12 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://www.github.com/FluxionNetwork/fluxion.git
+mv fluxion $HOME
+cd $HOME/fluxion
+bash fluxion.sh
+fi
+
+if [ $asu = 13 ] || [ $asu = 13 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+apt install wget
+wget https://raw.github.com/derv82/wifite/master/wifite.py
+mv wifite $HOME
+cd $HOME/wifite
+chmod +x wifite.py
+python2 wifite.py
+fi
+
+if [ $asu = 14 ] || [ $asu = 14 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://github.com/wifiphisher/wifiphisher.git
+mv wifiphisher $HOME
+cd $HOME/wifiphisher
+python setup.py install
+wifiphisher
+fi
+
+if [ $asu = 15 ] || [ $asu = 15 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://github.com/AngelSecurityTeam/Cam-Hackers
+pip install requests
+pip install colorama
+mv Cam-Hackers $HOME
+cd $HOME/Cam-Hackers
+python cam-hackers.py
 fi
 
 if [ $asu = 0 ] || [ $asu = 0 ]
