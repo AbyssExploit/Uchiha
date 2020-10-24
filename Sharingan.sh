@@ -279,5 +279,5 @@ echo -e "$green Malware Everywhere"
 echo -e "$green We Are Legion"
 sleep 5
 exit
-fi
 clear
+fi
