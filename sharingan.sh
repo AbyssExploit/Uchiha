@@ -63,6 +63,14 @@ echo -e "$yellow 10. Metasploit ( Penetration Tools )"
 echo -e "$green ____________________________________________"
 echo -e "$blue 11. Th3Inspector ( Information Gathering )"
 echo -e "$green ____________________________________________"
+echo -e "$white 12. Fluxion ( Hack Wifi )"
+echo -e "$green ____________________________________________"
+echo -e "$red 13. Wifiphisher ( Hack Wifi Evil Twin )"
+echo -e "$green ____________________________________________"
+echo -e "$blue 14. Wifite ( Hack Wifi )"
+echo -e "$green ____________________________________________"
+echo -e "$purple 15. Cam-Hackers ( Hack CCTV 91 Negara )"
+echo -e "$green ____________________________________________"
 
 echo -e "$cyan 0. Keluar"
 
@@ -234,6 +242,33 @@ mv wifiphisher $HOME
 cd $HOME/wifiphisher
 python setup.py install
 wifiphisher
+fi
+
+if [ $asu = 14 ] || [ $asu = 14 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://github.com/derv82/wifite
+mv wifite $HOME
+cd $HOME/wifite
+chmod +x wifite.py
+python2 wifite.py
+fi
+
+if [ $asu = 15 ] || [ $asu = 15 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://github.com/AngelSecurityTeam/Cam-Hackers
+pip install requests
+pip install colorama
+mv Cam-Hackers $HOME
+cd $HOME/Cam-Hackers
+python cam-hackers.py
 fi
 
 if [ $asu = 0 ] || [ $asu = 0 ]
