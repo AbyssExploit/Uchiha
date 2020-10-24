@@ -149,7 +149,7 @@ pkg install proot
 termux-chroot
 cd ReconCobra
 bash Termux_Installer.sh
-bash Termux_fixme.sh                                                                                         perl ReconCobraTermux.pl
+bash Termux_fixme.sh
 perl ReconCobraTermux.pl
 fi
 
