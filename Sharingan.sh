@@ -1,6 +1,5 @@
 #!/system/xbin/bash
 #abysswalker
-#CodedByAbyssWalker
 #recodelu_memang_nub
 
 
@@ -87,7 +86,7 @@ pip install hiddeneye-reborn
 fi
 
 if [ $asu = 2 ] || [ $asu = 2 ]
-then                                                                 
+then
 toilet --metal -f future -t "Darknet"
 echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
 sleep 3
@@ -129,7 +128,7 @@ toilet --metal -f future -t "Darknet"
 echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
 sleep 3
 git clone https://github.com/4shadoww/hakkuframework.git
-mv hakkuframework $HOME                                                                                   
+mv hakkuframework $HOME
 cd $HOME/hakkuframework
 chmod +x hakku
 ./install
@@ -273,9 +272,12 @@ fi
 
 if [ $asu = 0 ] || [ $asu = 0 ]
 then
-echo -e "$green Thanks To Use This Tools"
-echo -e "$green Be Carefully On Internet"
-echo -e "$green Malware Everywhere"
-sleep 5
+echo -e "Abyss Walker" | lolcat
+echo -e "No System Is Safe" | lolcat
+echo -e "Be Carrefuly On Internet" | lolcat
+echo -e "Malware Everywhere" | lolcat
+echo -e "Thanks For Use This Tools" | lolcat
 exit
 fi
+
+
