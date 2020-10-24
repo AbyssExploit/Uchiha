@@ -131,16 +131,17 @@ if [ $asu = 6 ] || [ $asu = 6 ]
 then
 clear
 toilet --metal -f future -t "Darknet"
-echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
-sleep 3
-git clone https://github.com/haroonawanofficial/ReconCobra.git
+echo "Untuk Tutorial Silahkan Comment Atau Join 
+git clone https://github.com/Agent00049/ReconCobra
 mv ReconCobra $HOME
 cd $HOME/ReconCobra
 chmod u+x *.sh
 pkg install proot
-type: termux-chroot
-./Termux_Installer.sh
-./Termux_fixme.sh                                                                                         perl ReconCobraTermux.pl
+termux-chroot
+cd ReconCobra
+bash Termux_Installer.sh
+bash Termux_fixme.sh                                                                                         perl ReconCobraTermux.pl
+perl ReconCobraTermux.pl
 fi
 
 if [ $asu = 7 ] || [ $asu = 7 ]
