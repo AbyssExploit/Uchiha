@@ -83,7 +83,11 @@ clear
 toilet --metal -f future -t "Darknet"
 echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
 sleep 3
+git clone https://github.com/Open-Security-Group-OSG/HiddenEyeReborn
+cd HiddenEyeReborn
+pip install -r requirements.txt
 pip install hiddeneye-reborn
+python setup.py install
 fi
 
 if [ $asu = 2 ] || [ $asu = 2 ]
