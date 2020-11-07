@@ -73,6 +73,8 @@ echo -e "$purple 15. Cam-Hackers $red( Hack CCTV 91 Negara )"
 echo -e "$green ____________________________________________"
 echo -e "$blue 16. Vulnx $red( Intelligent Bot Auto Shell )"
 echo -e "$green ____________________________________________"
+echo -e "$blue 17. PhoneInfoga $red( Phone Number Info )"
+echo -e "$green ____________________________________________"
 
 echo -e "$cyan 0. Keluar"
 
@@ -289,6 +291,21 @@ cd $HOME/vulnx
 chmod +x install.sh
 ./install.sh
 vulnx --help
+fi
+
+if [ $asu = 17 ] || [ $asu = 17 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://github.com/ExpertAnonymous/PhoneInfoga
+mv PhoneInfoga $HOME
+cd $HOME/PhoneInfoga
+rm -rf phoneinfoga.sh
+unzip PhoneInfoga.zip
+pip install -r requirements.txt
+python phoneinfoga.py
 fi
 
 if [ $asu = 0 ] || [ $asu = 0 ]
