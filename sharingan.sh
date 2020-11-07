@@ -71,6 +71,8 @@ echo -e "$blue 14. Wifite ( Hack Wifi )"
 echo -e "$green ____________________________________________"
 echo -e "$purple 15. Cam-Hackers ( Hack CCTV 91 Negara )"
 echo -e "$green ____________________________________________"
+echo -e "$blue 16. Vulnx "(Intelligent Bot Auto Shell )"
+echo -e "$green ____________________________________________"
 
 echo -e "$cyan 0. Keluar"
 
@@ -273,6 +275,20 @@ pip install colorama
 mv Cam-Hackers $HOME
 cd $HOME/Cam-Hackers
 python cam-hackers.py
+fi
+
+if [ $asu = 16 ] || [ $asu = 16 ]
+then
+clear
+toilet --metal -f future -t "Darknet"
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone http://github.com/anouarbensaad/vulnx
+mv vulnx $HOME
+cd $HOME/vulnx
+chmod +x install.sh
+./install.sh
+vulnx --help
 fi
 
 if [ $asu = 0 ] || [ $asu = 0 ]
