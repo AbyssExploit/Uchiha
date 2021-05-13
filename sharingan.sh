@@ -23,7 +23,7 @@ bash .r.sh
 toilet --metal -f future -t "  Welcome Back"
 toilet --metal -f small -t " Abyss Walker"
 echo ""
-echo -e "$line Welcome To Mix Tools Spammer"
+echo -e "$line Welcome To ALL IN ONE"
 echo ""
 echo -e "$line Big Thanks To All Authors!!"
 echo -e ""
@@ -151,12 +151,11 @@ clear
 toilet --metal -f future -t "Darknet"
 echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
 sleep 3
-git clone https://github.com/haroonawanofficial/ReconCobra.git
+git clone https://github.com/Agent00049/ReconCobra
 mv ReconCobra $HOME
 cd $HOME/ReconCobra
 chmod u+x *.sh
 pkg install proot
-type: termux-chroot
 ./Termux_Installer.sh
 ./Termux_fixme.sh
 perl ReconCobraTermux.pl
